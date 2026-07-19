@@ -4,7 +4,7 @@ Se convierte en un contenedor flex ademas de ser el hijo de su contenedor padre
 
 ¿Es el elemento <h2> un padre de flexbox o un hijo de flexbox?
 
-<!doctype html>
+```<!doctype html>
 <html>
  <body> 
   <div class="container">
@@ -13,11 +13,11 @@ Se convierte en un contenedor flex ademas de ser el hijo de su contenedor padre
   </div>
  </body>
 </html>
-
+```
 En este caso, el elemento <h2> es un hijo de flexbox
 
 Basado en el codigo a continuacion, ¿cuantas filas flexibles apareceran en la pagina?
-
+```
 <!doctype html>
 <html>
  <head>
@@ -30,7 +30,7 @@ Basado en el codigo a continuacion, ¿cuantas filas flexibles apareceran en la p
   </div>
  </body>
 </html>
-
+```
 Una fila
 
 ¿Cual es el ancho predeterminado de un elemento flex?
@@ -40,7 +40,7 @@ el ancho de su contenido
 usando la propiedad flex-direction
 
 ¿como podemos saber, a partir del codigo a continuacion que la propiedad flex-direction esta configurada en row?
-
+```
 .container {
     display: flex;
     width: 300px;
@@ -48,11 +48,11 @@ usando la propiedad flex-direction
 .item {
     border 2px solid #987654;
 }
-
+```
 Por que es el valor  predeterminado y asi no tenemos que especificarlo
 
 Basado en el siguiente codigo ¿que tan anchos seran cada uno de los elementos flexibles
-
+```
 .container {
     border: solid 2px #806868;
     display: flex;
@@ -62,7 +62,7 @@ Basado en el siguiente codigo ¿que tan anchos seran cada uno de los elementos f
 .item {
     border: 2px solid #457061
 }
-
+```
 300 pixeles
 
 Elige la definicion correcta del eje principal
