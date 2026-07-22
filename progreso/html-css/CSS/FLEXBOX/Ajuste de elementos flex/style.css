@@ -1,0 +1,13 @@
+.container {
+    border: 3px solid #806868;
+    height: 200px;
+    display: flex;
+    flex-direction: column; /* valor predeterminado row */
+    flex-wrap: wrap-reverse; /* valor predeterminado nowrap*/
+}
+
+.item {
+    border: 3px solid #457081;
+    padding: 10px;
+    margin: 2px;
+}
