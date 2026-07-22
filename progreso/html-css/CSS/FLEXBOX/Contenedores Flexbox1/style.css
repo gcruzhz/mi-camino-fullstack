@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    background-color: wheat;
+    justify-content: flex-end;
+}
+
+.item {
+    background-color: goldenrod;
+    margin: 10px;
+    padding: 5px;
+}
