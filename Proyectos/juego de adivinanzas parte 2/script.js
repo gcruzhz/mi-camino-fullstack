@@ -6,7 +6,7 @@ const inputElement = document.getElementById("guess");
 const feedbackElement = document.getElementById("feedback");
 const guess = inputElement.value;
 while (attempts > 0) {
-    if (attempts === && guess != randomNumber) {
+    if (attempts === && guess != randomNumber) {            
         feedbackElement.innerHTML = 'Game over! The correct number was ${randomNumber}.';
         feedbackElement.style.color = "red";
        break;
